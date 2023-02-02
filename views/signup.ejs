@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">KALI PROS </h1>
+        <p>Register</p>
+        <form method="post" action="/signup"  enctype="multipart/form-data"> 
+            <label for="uname">Username</label>
+            <input type="text" name="uname" placeholder="Username">
+           
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male <br>
+            <input type="radio" name="gender" value="female">Female
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password">
+            <label for="confpass">Confirm Password</label>
+            <input type="password" name="cpass" placeholder="Confirm Password">
+            <textarea name="message">Tells more about yourself </textarea>
+            <input type="file" name="image" value="upload the profile image">
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+    <script>
+        console.log(errors)
+    </script>
+</body>
+</html>
